@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+$cxllective-font: 'Baskervville', serif;
+$primary-font: 'Figtree', sans-serif;
+
+@mixin Flex($align: center, $justify: center) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
